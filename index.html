@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="./index.html">
+            <img class="logo" src="assets/logo.png" alt="">
+        </a>
+        <div class="link">
+            <a href="./nos_produits.html">Nos produits</a>
+            <a href="./panier.html">Panier</a>
+        </div>
+    </header>
+    <main>
+        <div class="item-displayer">
+            <h3>Nos Best Sellers</h3>
+            <div class="items" id="items-container"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <h2>A propos</h2>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales de vente</a>
+                <a href="#">Données et confidentialité</a>
+            </div>
+            <div class="help">
+                <h2>Assistance</h2>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+      displayItems();
+    </script>
+</body>
+</html>
